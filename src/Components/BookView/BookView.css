@@ -1,0 +1,95 @@
+/* .descriptions{
+    display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  height: 7.5rem;
+} */
+#qty{
+    width : 3rem; 
+    text-align: center;
+    background-color: #ffffff;
+    border: 0.5px solid coral;
+    border-radius: 0.275rem;
+    font-size : 1rem;
+    font-weight: 450;
+    color: sandybrown;
+}
+.btn-subtract-qty, .btn-add-qty{
+    text-align : center;
+    font-size : 0.975rem;
+    padding : 0.125rem 0.5rem ;
+    border: 0.5px solid coral;
+    border-radius: 0.275rem;
+    background-color: #ffffff;
+    color: #ff8721;
+    font-weight: 600;
+}
+.product-view-quantity-box-block{
+    display : flex;
+    align-items : center;
+    justify-content: space-around;
+    padding: 0 1.2rem;
+    width : 30%;
+}
+.infomation_book,.comment_book{
+    padding-top: 2rem;
+    margin: auto;
+}
+ .descriptions{
+    line-height: 2rem;
+} 
+.btn_cart_bookview , .btn_order_bookview{
+    background:#ff9800e0;
+  color:#fff;
+  border:none;
+  position:relative;
+  height: 2.2rem;
+  padding:0 1rem;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+  border-radius : 5px
+}
+.btn_cart_bookview:hover, .btn_order_bookview:hover{
+  background:#fff;
+  color:#ff9800e0;
+}
+.btn_cart_bookview:before,.btn_cart_bookview:after,.btn_order_bookview:before,.btn_order_bookview:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #ff9800e0;
+  transition:400ms ease all;
+}
+.btn_cart_bookview:after, .btn_order_bookview:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+.btn_cart_bookview:hover:before,.btn_cart_bookview:hover:after, .btn_order_bookview:hover:before,.btn_order_bookview:hover:after{
+  width:98%;
+  transition:800ms ease all;
+}
+.btn_bookview{
+    padding-top: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+.cmt_user{
+  padding-top : 0.5rem;
+}
+.comment_user{
+  padding : 0.2rem;
+}
+.add_comment{
+  margin: auto;
+}
+a{
+  text-decoration: none !important;
+}

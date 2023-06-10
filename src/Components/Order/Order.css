@@ -1,0 +1,13 @@
+ul,li {
+    list-style: none;
+}
+.product_order{
+    padding-top: 0.75rem;
+}
+.title_product{
+    font-size : 1.095rem;
+}
+.total{
+    padding-top: 1rem;
+    font-size: 1.1rem;
+}

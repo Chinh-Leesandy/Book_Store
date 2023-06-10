@@ -1,0 +1,80 @@
+.card_body {
+  padding: 0.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.title_book {
+  font-size: 1.1rem;
+  padding: 0.25rem;
+}
+.card {
+  padding: 0.25rem;
+}
+.card:hover{
+    transform: scale(1.0125);
+}
+/* .home {
+  background-color: rgb(249, 253, 253);
+} */
+.title_book, .title_author{
+    padding: 0;
+    font-size: 1rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.title_price{
+    width: 100%;
+}
+.btn_homeuser{
+    padding: 0rem 0.5rem 0.5rem 0.5rem;
+    justify-content: space-around;
+}
+.btn-hover {
+    color: #fff;
+    cursor: pointer;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:focus {
+    outline: none;
+}
+.btn-hover.view_book{
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    background-image: linear-gradient(to right, #f5ce62, #e43603, #fa7199, #e85a19);
+    box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
+}
+.btn-hover.add_cart{
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    background-image: linear-gradient(to right, #fc6076, #ff9a44, #ef9d43, #e75516);
+    box-shadow: 0 4px 15px 0 rgba(252, 104, 110, 0.75);
+}
+.search-input {
+  position: relative;
+}
+
+.search-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  pointer-events: none;
+}

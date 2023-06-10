@@ -1,0 +1,27 @@
+.card_body{
+    padding: 0.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* .homeadmin {
+    margin-top: 0.5rem;
+    padding: 0.75rem;
+} */
+.add-product{
+    margin: auto;
+    width: 15rem;
+    padding-top: 0.5rem;
+}
+.btn_add{
+    width: 100%;
+}
+.product{
+    margin-top: 0.5rem;
+}
+.btn_home{
+    justify-content:space-around ;
+    align-items: center;
+    margin: auto;
+    padding-bottom: 0.5rem;
+}

@@ -1,0 +1,36 @@
+.Order{
+    margin-left: 10rem;
+}
+.avata {
+    width : 1rem
+}
+.avata_img{
+    width: 100%;
+}
+.amout_product{
+    height: 100%;
+}
+.header_account{
+    width : 50%;
+    font-size :  1rem;
+    margin: auto;
+}
+.link_header{
+    text-decoration: none;
+    color: sandybrown;
+}
+.name_user {
+    padding-left : 0.5rem;
+}
+.header_comfim_account{
+    padding-top: 0.5rem;
+}
+.confim_account{
+    padding-top: 0.5rem;
+}
+.confim_info_account {
+    margin: auto;
+}
+.cf{
+    padding: 0.5rem 0;
+}

@@ -1,0 +1,46 @@
+.login{
+    margin: auto;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://p.w3layouts.com/demos_new/template_demo/28-07-2017/glassy_login_form-demo_Free/1756538463/web/images/bann.jpg);
+    height: 100vh;
+}
+.form-group{
+    padding: 0.75rem;
+    width: 90%;
+}
+.loading{
+    padding-top: 0.75rem;
+    margin: auto;
+}
+.btn_login{
+    width : 100%;
+}
+.container1{
+    margin: 0 auto;
+    padding: 4em 2em;
+    background: rgba(255, 255, 255, 0.07);
+}
+.login_username{
+    padding: 15px 66px 15px 19px;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.16);
+    border: 0;
+    border-left: 2px solid #00c6d7;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    color: #ffffff;
+    outline: 0;
+    -moz-box-shadow: 0 6px 12px 0 rgb(37, 37, 37);
+    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.4);
+    font-family: 'Open Sans', sans-serif;
+}
+.textLogin{
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 1.5em;
+    letter-spacing: 3px;
+    text-shadow: 3px 3px 4px #000;
+}

@@ -1,0 +1,16 @@
+.image-slider {
+    overflow: hidden;
+    white-space: nowrap;
+}
+.image-slider img {
+    display: inline-block;
+    width: 100vw;
+    height: auto;
+    animation: slide 15s infinite;
+}
+@keyframes slide {
+    0% { transform: translateX(0); }
+    33.33% { transform: translateX(-100vw); }
+    66.66% { transform: translateX(-200vw); }
+    100% { transform: translateX(0); }
+}
